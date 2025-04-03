@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .header {
+            background-color: black;
+            color: white;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+            .header .title {
+                font-size: 20px;
+                font-weight: bold;
+            }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .sidebar {
+            width: 20%;
+            padding: 10px;
+            background: #ddd;
+            text-align: center;
+        }
+
+        .content {
+            width: 60%;
+            padding: 10px;
+            background: white;
+            text-align: left;
+        }
+
+        .footer {
+            background: #666;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="title">QHS PEEPS</div>
+        <div class="nav">
+            <a href="index.html">HOME</a>
+            <a href="correo.html">CORREO</a>
+            <a href="dapidran.html">DAPIDRAN</a>
+            <a href="gamboa.html">GAMBOA</a>
+            <a href="dorilag.html">DORILAG</a>
+            <a href="briones.html">BRIONES</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="sidebar">Side<br>Additional Info</div>
+        <div class="content">
+            <h2 id="member-name">Member Name</h2>
+            <img src="profile-placeholder.jpg" alt="Profile Picture" style="width:150px;height:150px;border-radius:50%;">
+            <p><strong>Bio:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p><strong>Hobbies:</strong> Reading, Coding, Sports</p>
+            <a href="index.html">Back to Home</a>
+        </div>
+        <div class="sidebar">Side<br>Additional Info</div>
+    </div>
+    <div class="footer">Footer</div>
+</body>
+</html>

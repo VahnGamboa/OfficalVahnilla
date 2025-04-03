@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    .header .title {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.sidebar {
+    width: 20%;
+    padding: 10px;
+    background: #ddd;
+    text-align: center;
+}
+
+.content {
+    width: 60%;
+    padding: 10px;
+    background: white;
+    text-align: left;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.footer {
+    background: #666;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
